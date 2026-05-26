@@ -17,6 +17,7 @@ $avatar-size: 32px;
     display: flex;
     font-size: 12px;
     position: relative;
+    align-items: center;
 
     img {
       cursor: pointer;
@@ -24,6 +25,10 @@ $avatar-size: 32px;
       height: $avatar-size;
       border-radius: 100%;
       margin-right: 16px;
+    }
+
+    .article_detail_actions {
+      margin-left: auto;
     }
 
     &_actions {
